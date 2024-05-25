@@ -1,0 +1,23 @@
+{
+  "name": "third-app-using-express",
+  "version": "1.0.0",
+  "description": "creating api to ecom",
+  "main": "index.js",
+  "scripts": {
+    "development": "nodemon run dev",
+    "test": "npm run dev",
+    "dev": "nodemon run dev",
+    "production": "npm run production"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^16.4.5",
+    "express": "^4.19.2",
+    "mongoose": "^8.4.0",
+    "morgan": "^1.10.0",
+    "mysql2": "^3.9.7",
+    "nodemon": "^3.1.0",
+    "sequelize": "^6.37.3"
+  }
+}
