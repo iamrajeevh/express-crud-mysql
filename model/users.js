@@ -15,7 +15,11 @@ module.exports = (sequelize, DataTypes) => {
      dob:{
         type: DataTypes.DATE,
         required:false
-     }
+     },
+     profile_img:{
+      type: DataTypes.STRING,
+      required:false
+   }
     })
     // to delete user some key from return model
     User.prototype.toJSON = function () {
